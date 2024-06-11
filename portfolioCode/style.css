@@ -163,14 +163,14 @@ section {
 #profile {
     display: flex;
     justify-content: center;
-    gap: 5rem;
+    gap: 8rem;
     height: 80vh;
 }
 
 .section__pic-container {
     display: flex;
-    height: 400px;
-    width: 400px;
+    height: 450px;
+    width: 450px;
     margin: auto 0;
 }
 
@@ -184,14 +184,19 @@ section {
 }
 
 .section__text__p1 {
+    font-size: 1.8rem;
     text-align: center;
+    color: rgb(117, 117, 117);
 }
 
-.section__text__p1 {
-    font-size: 1.75rem;
+/*Tec de Monterrey student*/
+.section__text__p2 {
+    font-size: 2rem;
     margin-bottom: 1rem;
+    color: rgb(117, 117, 117);
 }
 
+/*Jorge Enrique Sánchez Encinas*/
 .title {
     font-size: 3rem;
     text-align: center;
