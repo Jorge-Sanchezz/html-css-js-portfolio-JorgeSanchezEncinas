@@ -259,3 +259,60 @@ section {
 .btn-container {
     gap:calc();
 }
+
+/* ABOUT SECTION */
+#about {
+    position: relative;
+}
+
+.about-containers {
+    gap: 1rem;
+    margin-bottom: 2rem;
+    margin-top: 0.1rem;
+}
+
+.about-details-container {
+    justify-content: center;
+    flex-direction: column;
+}
+
+.about-containers,
+.about-details-container {
+    display: flex;
+}
+
+.about-pic {
+    border-radius: 2rem;
+}
+
+.arrow {
+    position: absolute;
+    right: -5rem;
+    bottom: 2rem;
+}
+
+.details-container{
+    padding: 1.5rem;
+    flex: 1;
+    background: black;
+    border-radius: 2rem;
+    border: rgb(78, 78, 78) 0.15rem solid;
+    text-align: center;
+}
+
+.section-container {
+    gap: 4rem;
+    height: 80%;
+}
+
+.section__pic-container {
+    height: 400px;
+    width: 400px;
+    margin: auto 0;
+}
+
+/* EXPERIENCE SECTION */
+
+#experience {
+    position: relative;
+}
