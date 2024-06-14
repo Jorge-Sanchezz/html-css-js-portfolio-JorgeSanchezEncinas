@@ -336,8 +336,17 @@ section {
     text-align: initial;
     flex-wrap: wrap;
     flex-direction: row;
-    gap: 2.5rem;
+    gap: 10rem;
     justify-content: space-around;
+}
+
+.text-techo-container{
+    padding: 0.5rem;
+    flex: 1;
+    background: black;
+    border-radius: 2rem;
+    border: rgb(78, 78, 78) 0.15rem solid;
+    text-align: center;
 }
 
 article {
