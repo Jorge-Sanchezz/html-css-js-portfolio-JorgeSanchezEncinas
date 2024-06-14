@@ -336,12 +336,12 @@ section {
     text-align: initial;
     flex-wrap: wrap;
     flex-direction: row;
-    gap: 10rem;
+    gap: 12rem;
     justify-content: space-around;
 }
 
 .text-techo-container{
-    padding: 0.5rem;
+    padding: 3rem;
     flex: 1;
     background: black;
     border-radius: 2rem;
