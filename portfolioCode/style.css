@@ -311,6 +311,12 @@ section {
     margin: auto 0;
 }
 
+.about-me-text-container {
+    text-align: center;
+    color: rgb(185, 185, 185);
+    font-size: large;
+}
+
 /* EXPERIENCE SECTION */
 
 #experience {
@@ -341,7 +347,16 @@ section {
 }
 
 .text-techo-container{
-    padding: 3rem;
+    gap: 1rem;
+    margin-bottom: 2rem;
+    margin-top: 0.1rem;
+    justify-content: center;
+    flex-direction: column;
+    display: flex;
+}
+
+.techo-info{
+    padding: 1.5rem;
     flex: 1;
     background: black;
     border-radius: 2rem;
