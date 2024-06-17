@@ -347,21 +347,19 @@ section {
 .techo-details-container {
     display: flex;
 }
-
 .btn-learn-about-techo,
 .techo-details-container{
-    padding: 1.5rem;
+    padding: 2rem;
     flex: 0.65; 
     background: black;
     border-radius: 1.8rem;
     border: rgb(78, 78, 78) 0.15rem solid;
-    margin-right: 3.5rem;
+    margin-right: 4.5rem;
 }
-
 .techo-details-container{
     font-weight: 500;
     flex: 1;
-    margin-left: 3.5rem;
+    margin-left: 4.5rem;
 }
 
 .learn-more-about-techo{
@@ -377,6 +375,11 @@ section {
     padding: 1.6rem;
     width: 27rem;
     border-radius: 2rem;
+}
+.btn-learn-about-techo:hover{
+    cursor: pointer;
+    background-color: rgb(55, 55, 55);
+    border-color: rgb(175, 175, 175);
 }
 
 .info-techo {
