@@ -399,7 +399,7 @@ section {
     text-align: initial;
     flex-wrap: wrap;
     flex-direction: row;
-    gap: 2.5rem;
+    gap: 3.25rem;
     justify-content: space-around;
 }
 
@@ -412,4 +412,9 @@ article {
 
 article .icon {
     cursor: default;
+}
+
+.experience-enlistment-text {
+    font-size: 87%;
+    font-weight: 500;
 }
