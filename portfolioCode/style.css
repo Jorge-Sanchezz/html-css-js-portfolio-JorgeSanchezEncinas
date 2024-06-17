@@ -324,10 +324,47 @@ section {
   }
 
 .experience-sub-title {
-  color: rgb(85, 85, 85);
+  color: rgb(136, 136, 136);
   font-weight: 600;
   font-size: 1.75rem;
   margin-bottom: 2rem;
+}
+
+
+
+.techo-containers {
+    gap: 1rem;
+    margin-bottom: 2rem;
+    margin-top: 0.1rem;
+}
+
+.techo-details-container {
+    justify-content: center;
+    flex-direction: column;
+}
+
+.techo-containers,
+.techo-details-container {
+    display: flex;
+}
+
+.more-techo-details-container,
+.techo-details-container{
+    padding: 1.5rem;
+    flex: 0.4;
+    background: black;
+    border-radius: 2rem;
+    border: rgb(78, 78, 78) 0.15rem solid;
+    text-align: center;
+}
+
+.techo-details-container{
+    flex: 1;
+}
+
+.info-techo {
+    font-size: 1.18rem;
+    color: rgb(145, 145, 145);
 }
 
 .experience-details-container {
@@ -349,7 +386,7 @@ article {
   display: flex;
   width: 11rem;
   justify-content: space-around;
-  gap: 0.5rem;
+  gap: 0rem;
 }
 
 article .icon {
