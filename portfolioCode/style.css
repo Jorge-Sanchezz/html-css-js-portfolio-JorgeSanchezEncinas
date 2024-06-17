@@ -348,20 +348,35 @@ section {
     display: flex;
 }
 
-.more-techo-details-container,
+.btn-learn-about-techo,
 .techo-details-container{
     padding: 1.5rem;
     flex: 0.65; 
     background: black;
-    border-radius: 2rem;
+    border-radius: 1.8rem;
     border: rgb(78, 78, 78) 0.15rem solid;
-    text-align: center;
     margin-right: 3.5rem;
 }
 
 .techo-details-container{
+    font-weight: 500;
     flex: 1;
     margin-left: 3.5rem;
+}
+
+.learn-more-about-techo{
+    font-size: 1.5rem;
+    color: rgb(145, 145, 145);
+}
+
+.btn-learn-about-techo {
+    border: rgb(78, 78, 78) 0.18rem solid;
+    font-size: 1.25rem;
+    font-weight: 600;
+    transition: all 900ms ease;
+    padding: 1.6rem;
+    width: 27rem;
+    border-radius: 2rem;
 }
 
 .info-techo {
