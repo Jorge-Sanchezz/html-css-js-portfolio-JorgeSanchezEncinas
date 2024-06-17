@@ -323,14 +323,14 @@ section {
     position: relative;
   }
 
-.experience-sub-title {
+
+/*BEGINNING TECHO EXPERIENCE*/
+.techo-experience-sub-title {
   color: rgb(136, 136, 136);
   font-weight: 600;
   font-size: 1.75rem;
   margin-bottom: 2rem;
 }
-
-
 
 .techo-containers {
     gap: 1rem;
@@ -347,6 +347,7 @@ section {
 .techo-details-container {
     display: flex;
 }
+
 .btn-learn-about-techo,
 .techo-details-container{
     padding: 2rem;
@@ -356,6 +357,7 @@ section {
     border: rgb(78, 78, 78) 0.15rem solid;
     margin-right: 4.5rem;
 }
+
 .techo-details-container{
     font-weight: 500;
     flex: 1;
@@ -376,6 +378,7 @@ section {
     width: 27rem;
     border-radius: 2rem;
 }
+
 .btn-learn-about-techo:hover{
     cursor: pointer;
     background-color: rgb(55, 55, 55);
@@ -418,3 +421,16 @@ article .icon {
     font-size: 100%;
     font-weight: 500;
 }
+/*END TECHO EXPERIENCE*/
+
+
+/*BEGINNING FRC EXPERIENCE*/
+/*END FRC EXPERIENCE*/
+
+
+/*BEGINNING Personal robotics and GPA EXPERIENCE*/
+/*END Personal robotics and GPA EXPERIENCE*/
+
+
+/*BEGINNING MUN and Speech EXPERIENCE*/
+/*END MUN and Speech EXPERIENCE*/
