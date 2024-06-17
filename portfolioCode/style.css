@@ -399,15 +399,15 @@ section {
     text-align: initial;
     flex-wrap: wrap;
     flex-direction: row;
-    gap: 3.25rem;
+    column-gap: 7rem;
+    row-gap: 2rem;
     justify-content: space-around;
 }
 
 article {
     display: flex;
-    width: 11rem;
+    width: 12.5rem;
     justify-content: space-around;
-    gap: 0rem;
 }
 
 article .icon {
@@ -415,6 +415,6 @@ article .icon {
 }
 
 .experience-enlistment-text {
-    font-size: 87%;
+    font-size: 100%;
     font-weight: 500;
 }
