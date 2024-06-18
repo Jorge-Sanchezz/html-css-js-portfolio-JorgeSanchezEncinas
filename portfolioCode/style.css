@@ -324,7 +324,7 @@ section {
   }
 
 
-/*BEGINNING TECHO EXPERIENCE*/
+/*BEGINNING _1_ and general EXPERIENCE*/
 .x-experience-sub-title {
   color: rgb(136, 136, 136);
   font-weight: 600;
@@ -420,10 +420,10 @@ article .icon {
     font-size: 100%;
     font-weight: 500;
 }
-/*END TECHO EXPERIENCE*/
+/*END _1_ and general EXPERIENCE*/
 
 
-/*BEGINNING FRC EXPERIENCE*/
+/*BEGINNING _2_ EXPERIENCE*/
 .btn-learn-about_2_,
 ._2_details-container{
     padding: 2rem;
@@ -439,7 +439,7 @@ article .icon {
     flex: 1;
     margin-right: 4.5rem;
 }
-/*END FRC EXPERIENCE*/
+/*END _2_ EXPERIENCE*/
 
 
 /*BEGINNING Personal robotics and GPA EXPERIENCE*/
