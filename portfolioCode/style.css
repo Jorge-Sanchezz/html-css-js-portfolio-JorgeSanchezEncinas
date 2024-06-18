@@ -395,6 +395,8 @@ section {
     display: flex;
     justify-content: center;
     flex-direction: column;
+    margin-bottom: 4rem;
+
 }
 
 .article-container {
@@ -408,6 +410,7 @@ section {
 }
 
 article {
+    color: rgb(182, 182, 182);
     display: flex;
     width: 12.5rem;
     justify-content: space-around;
