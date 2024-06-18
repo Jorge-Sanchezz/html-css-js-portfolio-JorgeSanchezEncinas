@@ -325,7 +325,7 @@ section {
 
 
 /*BEGINNING TECHO EXPERIENCE*/
-.techo-experience-sub-title {
+.x-experience-sub-title {
   color: rgb(136, 136, 136);
   font-weight: 600;
   font-size: 1.75rem;
@@ -364,7 +364,7 @@ section {
     margin-left: 4.5rem;
 }
 
-.learn-more-about-techo{
+.learn-more-about-x{
     font-size: 1.5rem;
     color: rgb(145, 145, 145);
 }
@@ -385,7 +385,7 @@ section {
     border-color: rgb(175, 175, 175);
 }
 
-.info-techo {
+.info-x {
     font-size: 1.18rem;
     color: rgb(145, 145, 145);
 }
@@ -428,6 +428,7 @@ article .icon {
 
 
 /*BEGINNING FRC EXPERIENCE*/
+
 /*END FRC EXPERIENCE*/
 
 
