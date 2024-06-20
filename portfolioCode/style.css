@@ -153,6 +153,7 @@ section {
 
 .section-container {
     display: flex;
+    margin-top: -3rem;
 }
 
 /* PROFILE SECTION */
@@ -182,6 +183,7 @@ section {
 .section__text__p1 {
     font-size: 1.8rem;
     text-align: center;
+    margin-top: 2rem;
     color: rgb(117, 117, 117);
 }
 
@@ -195,6 +197,7 @@ section {
 /*Jorge Enrique Sánchez Encinas*/
 .title {
     font-size: 3rem;
+    margin-bottom: 1rem;
     text-align: center;
 }
 
@@ -383,6 +386,7 @@ section {
 
 .info-x {
     font-size: 1.18rem;
+    margin-bottom: -1.5rem;
     color: rgb(145, 145, 145);
 }
 
@@ -501,6 +505,29 @@ article .icon {
     margin-right: 4vh;
 }
 
+
+.btn-take-a-look-github{
+    background: black;
+    border-radius: 1.8rem;
+    border: rgb(78, 78, 78) 0.15rem solid;
+
+    font-size: 0.5rem;
+    font-weight: 500;
+    transition: all 900ms ease;
+    padding: 0.45rem;
+    width: 27rem;
+    border-radius: 2rem;
+}
+.btn-take-a-look-github:hover {
+    cursor: pointer;
+    background-color: rgb(55, 55, 55);
+    border-color: rgb(175, 175, 175);
+}
+
+.see-my-github{
+    font-size: 1.5rem;
+    color: rgb(145, 145, 145);
+}
 /*END Personal robotics and GPA EXPERIENCE*/
 
 
