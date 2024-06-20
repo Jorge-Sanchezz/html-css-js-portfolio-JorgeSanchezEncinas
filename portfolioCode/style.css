@@ -472,24 +472,33 @@ article .icon {
     border-radius: 2rem;
     border: rgb(78, 78, 78) 0.15rem solid;
     text-align: center;
-
     margin-left: 4vh;
 }
 
 .half-details-container {
     display: flex;
-
     padding: 2rem;
     flex: 0.65; 
     background: black;
     border-radius: 1.8rem;
     margin-right: 4.5rem;
-
     font-weight: 500;
     flex: 1;
     margin-left: 4.5rem;
-
     margin-top: -1.5rem;
+}
+
+
+
+.details-container-bottom-left{
+    padding: 0.5rem;
+    width: 2rem;
+    flex: 0.54;
+    background: black;
+    border-radius: 2rem;
+    border: rgb(78, 78, 78) 0.15rem solid;
+    text-align: center;
+    margin-right: 4vh;
 }
 
 /*END Personal robotics and GPA EXPERIENCE*/
