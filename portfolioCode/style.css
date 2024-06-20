@@ -405,6 +405,17 @@ section {
     justify-content: space-around;
 }
 
+.article-container-mid {
+    display: flex;
+    text-align: initial;
+    flex-wrap: wrap;
+    flex-direction: row;
+    column-gap: -5rem;
+    row-gap: 2rem;
+    padding-top: 2rem;
+    justify-content: space-around;
+}
+
 article {
     color: rgb(182, 182, 182);
     display: flex;
@@ -416,7 +427,8 @@ article .icon {
     cursor: default;
 }
 
-.experience-enlistment-text {
+.experience-enlistment-text,
+.experience-enlistment-text-mid-part {
     font-size: 100%;
     font-weight: 500;
 }
