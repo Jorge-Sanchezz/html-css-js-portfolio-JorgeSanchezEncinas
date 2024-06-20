@@ -387,12 +387,10 @@ section {
 }
 
 .experience-details-container {
-    padding-top: 4vh;
+    padding-top: 6vh;
     display: flex;
     justify-content: center;
     flex-direction: column;
-    margin-bottom: 4rem;
-
 }
 
 .article-container {
@@ -456,6 +454,42 @@ article .icon {
 
 
 /*BEGINNING Personal robotics and GPA EXPERIENCE*/
+.details-container-half-left{
+    padding: 1.5rem;
+    flex: 1;
+    background: black;
+    border-radius: 2rem;
+    border: rgb(78, 78, 78) 0.15rem solid;
+    text-align: center;
+
+    margin-right: 4vh;
+}
+
+.details-container-half-right{
+    padding: 1.5rem;
+    flex: 1;
+    background: black;
+    border-radius: 2rem;
+    border: rgb(78, 78, 78) 0.15rem solid;
+    text-align: center;
+
+    margin-left: 4vh;
+}
+
+.half-details-container {
+    display: flex;
+
+    padding: 2rem;
+    flex: 0.65; 
+    background: black;
+    border-radius: 1.8rem;
+    margin-right: 4.5rem;
+
+    font-weight: 500;
+    flex: 1;
+    margin-left: 4.5rem;
+}
+
 /*END Personal robotics and GPA EXPERIENCE*/
 
 
