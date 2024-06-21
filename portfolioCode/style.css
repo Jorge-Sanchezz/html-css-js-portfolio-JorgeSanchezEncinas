@@ -145,7 +145,7 @@ a:hover{
 /* SECTIONS */
 section {
     padding-top: 4vh;
-    height: 96vh;
+    height: auto;
     margin: 0 10rem;
     box-sizing: border-box;
     min-height: fit-content;
@@ -187,6 +187,14 @@ section {
     color: rgb(117, 117, 117);
 }
 
+.section__text__p1-about {
+    padding-top: 3.1rem;
+    font-size: 1.8rem;
+    text-align: center;
+    margin-top: 2rem;
+    color: rgb(117, 117, 117);
+}
+
 /*Tec de Monterrey student*/
 .section__text__p2 {
     font-size: 2rem;
@@ -196,6 +204,14 @@ section {
 
 /*Jorge Enrique Sánchez Encinas*/
 .title {
+    padding-bottom: 2rem;
+    font-size: 3rem;
+    margin-bottom: 1rem;
+    text-align: center;
+}
+
+.title-about {
+    padding-bottom: 5rem;
     font-size: 3rem;
     margin-bottom: 1rem;
     text-align: center;
@@ -266,9 +282,11 @@ section {
 /* ABOUT SECTION */
 #about {
     position: relative;
+    padding-bottom: 10rem;
 }
 
 .about-containers {
+    padding-bottom: 1vh;
     gap: 1rem;
     margin-bottom: 2rem;
     margin-top: 0.1rem;
@@ -291,7 +309,12 @@ section {
 .arrow {
     position: absolute;
     right: -5rem;
-    bottom: 2rem;
+    bottom: 0rem;
+}
+.arrow-experience {
+    position: absolute;
+    right: -5rem;
+    bottom: -113rem;
 }
 
 .details-container{
@@ -324,6 +347,7 @@ section {
 
 #experience {
     position: relative;
+    padding-bottom: 8rem;
   }
 
 
@@ -338,7 +362,6 @@ section {
 .x-experience-containers {
     gap: 1rem;
     margin-bottom: 2rem;
-    margin-top: 0.1rem;
 }
 .x-experience-containers,
 ._1_details-container {
@@ -391,7 +414,6 @@ section {
 }
 
 .experience-details-container {
-    padding-top: 6vh;
     display: flex;
     justify-content: center;
     flex-direction: column;
@@ -466,7 +488,7 @@ article .icon {
     border-radius: 2rem;
     border: rgb(78, 78, 78) 0.15rem solid;
     text-align: center;
-    margin-right: 4vh;
+    margin-right: 1.7vh;
 }
 
 .details-container-half-right{
@@ -476,7 +498,7 @@ article .icon {
     border-radius: 2rem;
     border: rgb(78, 78, 78) 0.15rem solid;
     text-align: center;
-    margin-left: 4vh;
+    margin-left: 1.7vh;
 }
 
 .half-details-container {
@@ -499,7 +521,7 @@ article .icon {
     border-radius: 2rem;
     border: rgb(78, 78, 78) 0.15rem solid;
     text-align: center;
-    margin-right: 4vh;
+    margin-right: 1.7vh;
 }
 
 
@@ -527,6 +549,4 @@ article .icon {
 }
 /*END Personal robotics and GPA EXPERIENCE*/
 
-
-/*BEGINNING MUN and Speech EXPERIENCE*/
-/*END MUN and Speech EXPERIENCE*/
+/* IMAGES SECTION */
