@@ -460,12 +460,12 @@ article .icon {
 /*BEGINNING Personal robotics and GPA EXPERIENCE*/
 .details-container-half-left{
     padding: 1.5rem;
-    flex: 1;
+    width: 18rem;
+    flex: 0.54;
     background: black;
     border-radius: 2rem;
     border: rgb(78, 78, 78) 0.15rem solid;
     text-align: center;
-
     margin-right: 4vh;
 }
 
@@ -492,12 +492,9 @@ article .icon {
     margin-top: -1.5rem;
 }
 
-
-
 .details-container-bottom-left{
-    padding: 0.5rem;
-    width: 2rem;
-    flex: 0.54;
+    padding: 1.5rem;
+    flex: 1;
     background: black;
     border-radius: 2rem;
     border: rgb(78, 78, 78) 0.15rem solid;
