@@ -203,6 +203,12 @@ section {
 }
 
 /*Jorge Enrique Sánchez Encinas*/
+.title-name {
+    font-size: 3rem;
+    margin-bottom: 1rem;
+    text-align: center;
+}
+
 .title {
     padding-bottom: 2rem;
     font-size: 3rem;
@@ -329,12 +335,6 @@ section {
 .section-container {
     gap: 4rem;
     height: 74%;
-}
-
-.section__pic-container {
-    height: 400px;
-    width: 400px;
-    margin: auto 0;
 }
 
 .about-me-text-container {
@@ -550,3 +550,25 @@ article .icon {
 /*END Personal robotics and GPA EXPERIENCE*/
 
 /* IMAGES SECTION */
+.article-container-images {
+    display: flex;
+    height: 402px;
+    width: 400px;
+    margin: auto 0;
+    border: rgb(0, 146, 221) 0.5rem solid;
+    border-radius: 1.53rem;
+}
+
+.about-pictures-left {
+    border-top-left-radius: 1rem;
+    border-bottom-left-radius: 1rem;
+}
+
+.about-pictures {
+
+}
+
+.about-pictures-right {
+    border-top-right-radius: 1rem;
+    border-bottom-right-radius: 1rem;
+}
