@@ -556,12 +556,6 @@ article .icon {
     border-radius: 1.53rem;
 }
 
-.about-pictures {
-    padding: 1rem;
-    height: 410px;
-    width: 410px;
-}
-
 .images-details-container{
     padding-top: 1rem;
     padding-bottom: 1rem;
@@ -579,8 +573,6 @@ article .icon {
     font-weight: 600;
     font-size: 2.3rem;
 }
-
-
 
 
 
@@ -631,8 +623,9 @@ article .icon {
   
   .cards {
     position: relative;
-    width: 100%;
-    height: 100%;
+    justify-content: center;
+    width: 120%;
+    height: 500px;
     margin-bottom: 20px;
   }
   
@@ -647,7 +640,9 @@ article .icon {
   #item-2:checked ~ .cards #image-4, 
   #item-3:checked ~ .cards #image-1,
   #item-4:checked ~ .cards #image-2 {
-    display: none;
+    transform: translatex(0) scale(0);
+    opacity: .4;
+    z-index: 0;
   }
 
   #item-1:checked ~ .cards #image-4, 
@@ -675,7 +670,6 @@ article .icon {
     transform: translatex(0) scale(1);
     opacity: 1;
     z-index: 1;
-
     img {
       box-shadow: 0px 0px 5px 0px rgba(81, 81, 81, 0.47);
     }
