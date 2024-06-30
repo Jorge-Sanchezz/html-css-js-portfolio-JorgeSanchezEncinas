@@ -4,8 +4,3 @@ function toggleMenu() {
     menu.classList.toggle("open");
     icon.classList.toggle("open");
 }
-
-$('input').on('change', function() {
-    $('body').toggleClass('blue');
-  });
-  
