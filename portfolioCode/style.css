@@ -551,11 +551,6 @@ article .icon {
 /*END Personal robotics and GPA EXPERIENCE*/
 
 /* IMAGES SECTION */
-.article-container-images {
-    justify-content: center;
-    border-radius: 1.53rem;
-}
-
 .images-details-container{
     padding-top: 1rem;
     padding-bottom: 1rem;
@@ -574,173 +569,177 @@ article .icon {
     font-size: 2.3rem;
 }
 
-
-
-
-
-  
-  html, body {
-    margin: 0;
-    padding: 0;
+html, body {
     width: 100%;
     height: 100%;
-  }
-  
-  .container {
+}
+
+.container {
     display: flex;
     align-items: center;
     justify-content: center;
-    padding: 30px 10px;
     font-family: 'DM Sans', sans-serif;
-  }
-  
-  input[type=radio] {
+}
+
+input[type=radio] {
     display: none;
-  }
-  
-  .card {
+}
+
+.card {
     position: absolute;
-    width: 60%;
-    height: 100%;
-    left: 0;
-    right: 0;
-    margin: auto;
-    transition: transform .4s ease;
-    cursor: pointer;
-  }
-  
-  .container {
     width: 100%;
-    max-width: 800px;
-    max-height: 600px;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    transition: all 900ms ease-in-out;
+    cursor: pointer;
+}
+
+.container {
+    width: 100%;
     height: 100%;
     transform-style: preserve-3d;
-    display: flex;
     justify-content: center;
     flex-direction: column;
-    align-items: center;
-  }
-  
-  .cards {
+}
+
+.cards {
     position: relative;
-    justify-content: center;
-    width: 120%;
+    width: 55%;
     height: 500px;
     margin-bottom: 20px;
-  }
-  
-  .imgRoll {
+}
+
+.imgRoll {
     width: 100%;
     height: 100%;
-    border-radius: 10px;
+    border-radius: 1.5rem;
     object-fit: cover;
-  }
-  
-  #item-1:checked ~ .cards #image-3, 
-  #item-2:checked ~ .cards #image-4, 
-  #item-3:checked ~ .cards #image-1,
-  #item-4:checked ~ .cards #image-2 {
+    border: transparent 0.4rem solid;
+    transition: all 600ms ease;
+
+}
+
+#item-1:checked ~ .cards #image-3, 
+#item-2:checked ~ .cards #image-4, 
+#item-3:checked ~ .cards #image-1,
+#item-4:checked ~ .cards #image-2 {
     transform: translatex(0) scale(0);
     opacity: .4;
     z-index: 0;
-  }
+}
 
-  #item-1:checked ~ .cards #image-4, 
-  #item-2:checked ~ .cards #image-1, 
-  #item-3:checked ~ .cards #image-2,
-  #item-4:checked ~ .cards #image-3 {
-    transform: translatex(-40%) scale(.8);
+#item-1:checked ~ .cards #image-4, 
+#item-2:checked ~ .cards #image-1, 
+#item-3:checked ~ .cards #image-2,
+#item-4:checked ~ .cards #image-3 {
+    transform: translatex(-46%) scale(.8);
     opacity: .4;
     z-index: 0;
-  }
-  
-  #item-1:checked ~ .cards #image-2, 
-  #item-2:checked ~ .cards #image-3, 
-  #item-3:checked ~ .cards #image-4,
-  #item-4:checked ~ .cards #image-1 {
-    transform: translatex(40%) scale(.8);
+
+    .imgRoll:hover {
+        border-color: white;
+        transform: translatex(-2%) scale(1.01);
+    }
+}
+
+#item-1:checked ~ .cards #image-2, 
+#item-2:checked ~ .cards #image-3, 
+#item-3:checked ~ .cards #image-4,
+#item-4:checked ~ .cards #image-1 {
+    transform: translatex(46%) scale(.8);
     opacity: .4;
     z-index: 0;
-  }
-  
-  #item-1:checked ~ .cards #image-1, 
-  #item-2:checked ~ .cards #image-2, 
-  #item-3:checked ~ .cards #image-3,
-  #item-4:checked ~ .cards #image-4 {
+
+    .imgRoll:hover {
+        border-color: white;
+        transform: translatex(2%) scale(1.01);
+    }
+}
+
+#item-1:checked ~ .cards #image-1, 
+#item-2:checked ~ .cards #image-2, 
+#item-3:checked ~ .cards #image-3,
+#item-4:checked ~ .cards #image-4 {
     transform: translatex(0) scale(1);
     opacity: 1;
     z-index: 1;
+    cursor: default;
+
+    justify-content: center;
+
+
     img {
-      box-shadow: 0px 0px 5px 0px rgba(81, 81, 81, 0.47);
+        box-shadow: 0px 0px 5px 0px rgba(81, 81, 81, 0.47);
     }
-  }
-  
-  .imageInfo {
+}
+
+.imageInfo {
     background-color: #ffffff;
     border-radius: 8px;
     min-width: 320px;
     padding: 16px 10px;
-  }
-  
-  .upper-part {
+}
+
+.upper-part {
     position: relative;
     display: flex;
     align-items: center;
     margin-bottom: 12px;
     height: 36px;
     overflow: hidden;
-  }
-    
-  .image-details {
+}
+
+.image-details {
     width: calc(100% - 50px);
     display: block;
-  }
-  
-  .image-details .title {
+}
+
+.image-details .title {
     color: #403d40;
     font-size: 14px;
     line-height: 24px;
-  }
-  
-  
-  .progress-bar {
+}
+
+
+.progress-bar {
     height: 3px;
     width: 100%;
     background-color: #e9efff;
     border-radius: 2px;
     overflow: hidden;
-  }
-  
-  .progress {
+}
+
+.progress {
     display: block;
     position: relative;
     width: 60%;
     height: 100%;
     background-color: #2992dc;
     border-radius: 6px;
-  }
-  
-  .info-area {
+}
+
+.info-area {
     width: 100%;
     position: absolute;
     top: 0;
-    left: 30px;
-    transition: transform .4s ease-in;
-  }
-  
-  #item-2:checked ~ .imageInfo #test {
-    transform: translateY(0);
-  }
-  
-  #item-2:checked ~ .imageInfo #test  {
-    transform: translateY(-70px);
-  }
-  
-  #item-3:checked ~ .imageInfo #test  {
-    transform: translateY(-140px);
-  }
+    transition: transform 0.8s ease;
+}
 
-  #item-4:checked ~ .imageInfo #test  {
+#item-2:checked ~ .imageInfo #test {
+    transform: translateY(0);
+}
+
+#item-2:checked ~ .imageInfo #test  {
+    transform: translateY(-70px);
+}
+
+#item-3:checked ~ .imageInfo #test  {
+    transform: translateY(-140px);
+}
+
+#item-4:checked ~ .imageInfo #test  {
     transform: translateY(-210px);
-  }
-  /*https://codepen.io/aybukeceylan/pen/RwrRPoO*/
+}
+/*https://codepen.io/aybukeceylan/pen/RwrRPoO*/
