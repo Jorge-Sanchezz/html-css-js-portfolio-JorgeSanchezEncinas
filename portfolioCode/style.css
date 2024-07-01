@@ -614,11 +614,9 @@ input[type=radio] {
 .imgRoll {
     width: 100%;
     height: 100%;
-    border-radius: 1.5rem;
     object-fit: cover;
     border: transparent 0.4rem solid;
     transition: all 600ms ease;
-
 }
 
 #item-1:checked ~ .cards #image-3, 
@@ -635,12 +633,18 @@ input[type=radio] {
 #item-3:checked ~ .cards #image-2,
 #item-4:checked ~ .cards #image-3 {
     transform: translatex(-46%) scale(.8);
-    opacity: .4;
+    opacity: .6;
     z-index: 0;
 
     .imgRoll:hover {
-        border-color: white;
-        transform: translatex(-2%) scale(1.01);
+        transform: translatex(-3.2%) scale(1.02);
+        --d: 6000ms;
+        --c1: rgb(210, 49, 49)
+    }
+
+    .imgRoll {
+        border-image: conic-gradient(from var(--angle), var(--c2), var(--c1) 0.1turn, var(--c1) 0.15turn, var(--c2) 0.25turn) 30;
+        animation: borderRotate var(--d) linear infinite forwards;
     }
 }
 
@@ -649,13 +653,20 @@ input[type=radio] {
 #item-3:checked ~ .cards #image-4,
 #item-4:checked ~ .cards #image-1 {
     transform: translatex(46%) scale(.8);
-    opacity: .4;
+    opacity: .6;
     z-index: 0;
 
     .imgRoll:hover {
-        border-color: white;
-        transform: translatex(2%) scale(1.01);
+        transform: translatex(3.2%) scale(1.02);
+        --d: 6000ms;
+        --c1: rgb(210, 49, 49)
     }
+
+    .imgRoll {
+        border-image: conic-gradient(from var(--angle), var(--c2), var(--c1) 0.1turn, var(--c1) 0.15turn, var(--c2) 0.25turn) 30;
+        animation: borderRotate var(--d) linear infinite forwards;
+    }
+
 }
 
 #item-1:checked ~ .cards #image-1, 
@@ -669,6 +680,9 @@ input[type=radio] {
 
     justify-content: center;
 
+    .imgRoll {
+        border-radius: 1.5rem;
+    }
 
     img {
         box-shadow: 0px 0px 5px 0px rgba(81, 81, 81, 0.47);
@@ -745,7 +759,7 @@ input[type=radio] {
 /*https://codepen.io/aybukeceylan/pen/RwrRPoO*/
 
 
-/*IMG WRAPPER*/
+/*MOVING BORDER*/
 
 @property --angle {
     syntax: '<angle>';
@@ -765,42 +779,17 @@ input[type=radio] {
     inherits: true;
   }
   
-  p {
-      margin: 0;
-  }
-  
   :root {
-      --d: 2500ms;
+      --d: 4300ms;
       --angle: 90deg;
       --gradX: 100%;
       --gradY: 50%;
       --c1: rgba(168, 239, 255, 1);
       --c2: rgba(168, 239, 255, 0.1);
-      
-    &:hover{
-            --c1: transparent;
-            --c2: transparent;    
-            cursor: pointer;
-    }
-
   }
   
   .wrapper {
       min-width: min(40rem, 100%);
-  }
-  
-  .box {
-      font-size: 3vw;
-      margin: max(1rem, 3vw);
-      border: 0.35rem solid;
-      padding: 3vw;
-      border-image: conic-gradient(from var(--angle), var(--c2), var(--c1) 0.1turn, var(--c1) 0.15turn, var(--c2) 0.25turn) 30;
-      animation: borderRotate var(--d) linear infinite forwards;
-  }
-  
-  .box:nth-child(2) {
-      border-image: radial-gradient(ellipse at var(--gradX) var(--gradY), var(--c1), var(--c1) 10%, var(--c2) 40%) 30;
-      animation: borderRadial var(--d) linear infinite forwards;
   }
   
   @keyframes borderRotate {
