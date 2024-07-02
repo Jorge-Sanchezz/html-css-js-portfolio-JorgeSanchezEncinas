@@ -810,6 +810,8 @@ input[type=radio] {
   }
   /*https://codepen.io/michellebarker/pen/gOMBPQj*/
 
+
+/*AUTO SCROLL IMAGES*/
 .dot {
     height: 20px;
     width: 20px;
@@ -825,4 +827,5 @@ input[type=radio] {
 #item-4:checked ~ .dots #dot-4 {
     background-color: #717171;
 }
-    
+
+/*https://codepen.io/Snip3r/pen/GxybbN*/
