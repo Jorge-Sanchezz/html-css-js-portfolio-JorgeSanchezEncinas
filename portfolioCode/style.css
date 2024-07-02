@@ -636,13 +636,11 @@ input[type=radio] {
     transform: translatex(-46%) scale(.8);
     opacity: .6;
     z-index: 0;
-
     .imgRoll:hover {
         transform: translatex(-3.2%) scale(1.02);
         --d: 6000ms;
         --c1: rgb(210, 49, 49)
     }
-
     .imgRoll {
         border-image: conic-gradient(from var(--angle), var(--c2), var(--c1) 0.1turn, var(--c1) 0.15turn, var(--c2) 0.25turn) 30;
         animation: borderRotate var(--d) linear infinite forwards;
@@ -656,18 +654,15 @@ input[type=radio] {
     transform: translatex(46%) scale(.8);
     opacity: .6;
     z-index: 0;
-
     .imgRoll:hover {
         transform: translatex(3.2%) scale(1.02);
         --d: 6000ms;
         --c1: rgb(210, 49, 49)
     }
-
     .imgRoll {
         border-image: conic-gradient(from var(--angle), var(--c2), var(--c1) 0.1turn, var(--c1) 0.15turn, var(--c2) 0.25turn) 30;
         animation: borderRotate var(--d) linear infinite forwards;
     }
-
 }
 
 #item-1:checked ~ .cards #image-1, 
@@ -678,13 +673,10 @@ input[type=radio] {
     opacity: 1;
     z-index: 1;
     cursor: default;
-
     justify-content: center;
-
     .imgRoll {
         border-radius: 1.5rem;
     }
-
     img {
         box-shadow: 0px 0px 5px 0px rgba(81, 81, 81, 0.47);
     }
@@ -704,11 +696,6 @@ input[type=radio] {
     margin-bottom: 12px;
     height: 36px;
     overflow: hidden;
-}
-
-.image-details {
-    width: calc(100% - 50px);
-    display: block;
 }
 
 .image-details .title {
@@ -742,7 +729,7 @@ input[type=radio] {
     transition: transform 0.8s ease;
 }
 
-#item-2:checked ~ .imageInfo #test {
+#item-1:checked ~ .imageInfo #test {
     transform: translateY(0);
 }
 
@@ -822,3 +809,20 @@ input[type=radio] {
       }
   }
   /*https://codepen.io/michellebarker/pen/gOMBPQj*/
+
+.dot {
+    height: 20px;
+    width: 20px;
+    background-color: #bbb;
+    border-radius: 50%;
+    display: inline-block;
+    transition: background-color 0.6s ease;
+}
+    
+#item-1:checked ~ .dots #dot-1,
+#item-2:checked ~ .dots #dot-2,
+#item-3:checked ~ .dots #dot-3,
+#item-4:checked ~ .dots #dot-4 {
+    background-color: #717171;
+}
+    
