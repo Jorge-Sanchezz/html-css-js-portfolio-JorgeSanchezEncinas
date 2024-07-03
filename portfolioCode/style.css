@@ -324,6 +324,12 @@ section {
     bottom: 5rem;
 }
 
+.arrow-about-me {
+    position: absolute;
+    right: -5rem;
+    bottom: 6rem;
+}
+
 .details-container{
     padding: 1.5rem;
     flex: 1;
@@ -628,12 +634,11 @@ input[type=radio] {
     cursor: pointer;
     transition: all 900ms ease;
 }
-
 .arrow-left-img-carousel {
     height: 20%;
     width: 9%;
     position: absolute;
-    padding-right: 23%;
+    padding-right: 24%;
     cursor: pointer;
     transition: all 900ms ease;
 }
@@ -717,39 +722,24 @@ input[type=radio] {
     border-radius: 8px;
     min-width: 320px;
     padding: 16px 10px;
+    height: 3rem;
+    width: 20%;
 }
 
 .upper-part {
     position: relative;
     display: flex;
     align-items: center;
-    margin-bottom: 12px;
-    height: 36px;
+    height: 47px;
     overflow: hidden;
 }
 
 .image-details .title {
     color: #403d40;
-    font-size: 14px;
-    line-height: 24px;
-}
-
-
-.progress-bar {
-    height: 3px;
-    width: 100%;
-    background-color: #e9efff;
-    border-radius: 2px;
-    overflow: hidden;
-}
-
-.progress {
-    display: block;
-    position: relative;
-    width: 60%;
-    height: 100%;
-    background-color: #2992dc;
-    border-radius: 6px;
+    font-size: 1.3rem;
+    line-height: 25px;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 400;
 }
 
 .info-area {
@@ -764,15 +754,15 @@ input[type=radio] {
 }
 
 #item-2:checked ~ .imageInfo #test  {
-    transform: translateY(-70px);
+    transform: translateY(-99px);
 }
 
 #item-3:checked ~ .imageInfo #test  {
-    transform: translateY(-140px);
+    transform: translateY(-197px);
 }
 
 #item-4:checked ~ .imageInfo #test  {
-    transform: translateY(-210px);
+    transform: translateY(-296px);
 }
 /*https://codepen.io/aybukeceylan/pen/RwrRPoO*/
 
