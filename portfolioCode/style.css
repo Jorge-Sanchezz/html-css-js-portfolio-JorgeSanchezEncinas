@@ -757,7 +757,7 @@ input[type=radio] {
     position: relative;
     display: flex;
     align-items: center;
-    height: 47px;
+    height: 50px;
     overflow: hidden;
 }
 
@@ -790,6 +790,30 @@ input[type=radio] {
 
 #item-4:checked ~ .imageInfo #test  {
     transform: translateY(-296px);
+}
+
+#item-5:checked ~ .imageInfo #test  {
+    transform: translateY(-395px);
+}
+
+#item-6:checked ~ .imageInfo #test  {
+    transform: translateY(-492px);
+}
+
+#item-7:checked ~ .imageInfo #test  {
+    transform: translateY(-588px);
+}
+
+#item-8:checked ~ .imageInfo #test  {
+    transform: translateY(-686px);
+}
+
+#item-9:checked ~ .imageInfo #test  {
+    transform: translateY(-784px);
+}
+
+#item-10:checked ~ .imageInfo #test  {
+    transform: translateY(-883px);
 }
 /*https://codepen.io/aybukeceylan/pen/RwrRPoO*/
 
