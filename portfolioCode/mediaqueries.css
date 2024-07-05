@@ -7,7 +7,7 @@
       flex-wrap: wrap;
     }
     #contact,
-    #projects {
+    #images {
       height: fit-content;
     }
   }
@@ -19,14 +19,16 @@
     #hamburger-nav {
       display: flex;
     }
+    
     #experience,
     .experience-details-container {
-      margin-top: 2rem;
+      margin-top: 1rem;
     }
     #profile,
     .section-container {
       display: block;
     }
+    
     .arrow {
       display: none;
     }
@@ -47,7 +49,7 @@
     }
   }
   
-  @media screen and (max-width: 600px) {
+  @media screen and (max-width: 900px) {
     #contact,
     footer {
       height: 40vh;
@@ -56,6 +58,17 @@
       height: 83vh;
       margin-bottom: 0;
     }
+    #about {
+      margin-top: 8rem;
+    }
+    #experience {
+      margin-top: -3rem;
+    }
+
+    #images {
+      margin-bottom: -3rem;
+    }
+
     article {
       font-size: 1rem;
     }
@@ -101,44 +114,137 @@
       text-align: justify;
     }
 
-    .x-experience-containers, .experience-containers {
-        flex-direction: column;
-        align-items: center;
+    .section__text__p1-about {
+      padding-top: 0rem;
+      margin-top: 0rem;
     }
 
+    .section__text__p1 {
+      margin-top: 0rem;
+    }
+
+    .title {
+      padding-bottom: 0rem;
+      margin-bottom: 0rem;
+    }
+
+    .x-experience-containers, 
+    .experience-containers, 
     .details-container {
         flex-direction: column;
         align-items: center;
     }
 
-    .btn-learn-about_1_ {
-        width: auto;
-        height: 46vw;
-        justify-content: center;
-        margin-right: 0rem;
+    .details-container {
+      margin-top: 0rem;
     }
 
+    .btn-learn-about_1_,
     .btn-learn-about_2_ {
         width: auto;
         height: 46vw;
         justify-content: center;
+        margin-right: 0rem;
         margin-left: 0rem;
     }
 
-    ._1_details-container, ._2_details-container {
+    ._1_details-container, 
+    ._2_details-container {
         justify-content: center;
         margin-right: 0rem;
         margin-left: 0rem;
     }
 
-    .experience-enlistment-text {
-        flex-direction: column;
+    .info-x {
+      margin-bottom: 0rem;
+      padding: 0rem;
     }
 
-    .details-container-half-left{
-        padding: 0.2rem;
-        width: auto;
-        justify-content: center;
-        margin-right: 0rem;
+    .details-container-half-left, 
+    .details-container-half-right{
+      padding: 1.5rem;
+      margin-bottom: 0.5rem;
+      width: auto;
+      flex: 1;
+      margin-right: 0rem;
+      margin-left: 0rem;
+    }
+
+    .details-container-bottom-left{
+      margin-top: -1.1rem;
+      padding: 0rem;
+      flex: 1;
+      text-align: center;
+      margin-right: 0rem;
+    }
+
+    .btn-take-a-look-github{
+      padding: 0.45rem;
+      width: auto;
+      border-radius: 2rem;
+    }
+
+    .half-details-container {
+      display: flex;
+      padding: 0rem;
+    }
+
+    .about-containers {
+      padding-bottom: 2rem;
+      gap: 2rem;
+      margin-bottom: 0rem;
+      margin-top: 0rem;
+  }
+
+    .arrow-about-me {
+      position: absolute;
+      right: 0rem;
+      bottom: 5rem;
+    }
+
+    .arrow-experience {
+      position: absolute;
+      right: 0rem;
+      bottom: 3rem;
+    }
+
+    .contact-icon {
+      width: 50px;
+      height: 50px;
+    }
+
+    .contact-info-upper-container {
+      padding: 0.6rem;
+    }
+
+    #item-1:checked ~ .imageInfo #test{
+        transform: translateY(0);
+    }
+    #item-2:checked ~ .imageInfo #test{
+        transform: translateY(-52px);
+    }
+    #item-3:checked ~ .imageInfo #test{
+        transform: translateY(-100px);
+    }
+    #item-4:checked ~ .imageInfo #test{
+        transform: translateY(-150px);
+    }
+    #item-5:checked ~ .imageInfo #test{
+        transform: translateY(-200px);
+    }
+    #item-6:checked ~ .imageInfo #test{
+        transform: translateY(-250px);
+    }
+    #item-7:checked ~ .imageInfo #test{
+        transform: translateY(-300px);
+    }
+    #item-8:checked ~ .imageInfo #test{
+        transform: translateY(-350px);
+    }
+    #item-9:checked ~ .imageInfo #test{
+        transform: translateY(-400px);
+    }
+    #item-10:checked ~ .imageInfo #test{
+        transform: translateY(-450px);
     }
   }

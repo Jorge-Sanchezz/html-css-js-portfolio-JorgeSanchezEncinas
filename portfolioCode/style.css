@@ -320,20 +320,14 @@ section {
 }
 .arrow-experience {
     position: absolute;
-    right: -5rem;
-    bottom: 5rem;
+    right: 0rem;
+    bottom: 3rem;
 }
 
 .arrow-about-me {
     position: absolute;
-    right: -5rem;
+    right: 0rem;
     bottom: 6rem;
-}
-
-.arrow-images-section {
-    position: relative;
-    right: -86.4rem;
-    bottom: 3rem;
 }
 
 .details-container{
