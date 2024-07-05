@@ -745,12 +745,13 @@ input[type=radio] {
 }
 
 .imageInfo {
-    background-color: #ffffff;
+    background-color: rgb(48, 48, 48);
     border-radius: 8px;
     min-width: 320px;
     padding: 16px 10px;
     height: 3rem;
     width: 20%;
+    border: #cecece 0.1rem solid;
 }
 
 .upper-part {
@@ -762,7 +763,7 @@ input[type=radio] {
 }
 
 .image-details .title {
-    color: #403d40;
+    color: #dadada;
     font-size: 1.3rem;
     line-height: 25px;
     font-family: 'Poppins', sans-serif;
