@@ -216,6 +216,202 @@
     .contact-info-upper-container {
       padding: 0.6rem;
     }
+    
+
+
+
+
+
+
+
+    .images-experience-sub-title {
+      padding-top: 0.5rem;
+      padding-bottom: 4.5rem;
+      color: rgb(136, 136, 136);
+      font-weight: 600;
+      font-size: 2.3rem;
+    }
+
+    .container {
+      width: 100%;
+      height: 100%;
+      margin-top: 2rem;
+      transform-style: preserve-3d;
+      justify-content: center;
+      flex-direction: column;
+      }
+      
+      .cards {
+          position: relative;
+          width: 100%;
+          height: 200px;
+          margin-bottom: 20px;
+      }
+      
+      .imgRoll {
+          width: 100%;
+          height: 100%;
+          object-fit: cover;
+          border: transparent 0.4rem solid;
+          transition: all 600ms ease;
+          cursor: pointer;
+      }
+      
+      .arrow-right-img-carousel {
+        rotate: 90deg;
+          height: 20%;
+          width: 9%;
+          position: absolute;
+          padding-left: 20%;
+          cursor: pointer;
+          transition: all 900ms ease;
+      }
+      .arrow-left-img-carousel {
+          rotate: 90deg;
+          height: 20%;
+          width: 9%;
+          position: absolute;
+          padding-right: 25%;
+          padding-top: 0%;
+          cursor: pointer;
+          transition: all 900ms ease;
+      }
+  
+    #item-1:checked ~ .cards #image-3, .cards #image-4, .cards #image-5, .cards #image-6, .cards #image-7, .cards #image-8, .cards #image-9,
+    #item-2:checked ~ .cards #image-4, .cards #image-5, .cards #image-6, .cards #image-7, .cards #image-8, .cards #image-9, .cards #image-10,
+    #item-3:checked ~ .cards #image-5, .cards #image-6, .cards #image-7, .cards #image-8, .cards #image-9, .cards #image-10, .cards #image-1,
+    #item-4:checked ~ .cards #image-6, .cards #image-7, .cards #image-8, .cards #image-9, .cards #image-10, .cards #image-1, .cards #image-2,
+    #item-5:checked ~ .cards #image-7, .cards #image-8, .cards #image-9, .cards #image-10, .cards #image-1, .cards #image-2, .cards #image-3,
+    #item-6:checked ~ .cards #image-8, .cards #image-9, .cards #image-10, .cards #image-1, .cards #image-2, .cards #image-3, .cards #image-4,
+    #item-7:checked ~ .cards #image-9, .cards #image-10, .cards #image-1, .cards #image-2, .cards #image-3, .cards #image-4, .cards #image-5,
+    #item-8:checked ~ .cards #image-10, .cards #image-1, .cards #image-2, .cards #image-3, .cards #image-4, .cards #image-5, .cards #image-6,
+    #item-9:checked ~ .cards #image-1, .cards #image-2, .cards #image-3, .cards #image-4, .cards #image-5, .cards #image-6, .cards #image-7,
+    #item-10:checked ~ .cards #image-2, .cards #image-3, .cards #image-4, .cards #image-5, .cards #image-6, .cards #image-7, .cards #image-8
+    {
+        transform: translateY(0) scale(0);
+        opacity: .4;
+        z-index: 0;
+    }
+
+    #item-1:checked ~ .cards #image-10, 
+    #item-2:checked ~ .cards #image-1, 
+    #item-3:checked ~ .cards #image-2,
+    #item-4:checked ~ .cards #image-3,
+    #item-5:checked ~ .cards #image-4,
+    #item-6:checked ~ .cards #image-5,
+    #item-7:checked ~ .cards #image-6,
+    #item-8:checked ~ .cards #image-7,
+    #item-9:checked ~ .cards #image-8,
+    #item-10:checked ~ .cards #image-9 {
+        transform: translateY(-46%) scale(.8);
+        opacity: .5;
+        z-index: 0;
+        .imgRoll:hover {
+            transform: translateY(-3.2%) scale(1.02);
+            --d: 6000ms;
+            --c1: rgb(210, 49, 49)
+        }
+        .imgRoll {
+            border-image: conic-gradient(from var(--angle), var(--c2), var(--c1) 0.1turn, var(--c1) 0.15turn, var(--c2) 0.25turn) 30;
+            animation: borderRotate var(--d) linear infinite forwards;
+        }
+        .arrow-right-img-carousel{
+            transform: translatex(3.2%) scale(0);
+        }
+        .arrow-left-img-carousel{
+            transform: translatex(3.2%) scale(1);
+        }
+    }
+
+    #item-1:checked ~ .cards #image-2, 
+    #item-2:checked ~ .cards #image-3, 
+    #item-3:checked ~ .cards #image-4,
+    #item-4:checked ~ .cards #image-5,
+    #item-5:checked ~ .cards #image-6,
+    #item-6:checked ~ .cards #image-7,
+    #item-7:checked ~ .cards #image-8, 
+    #item-8:checked ~ .cards #image-9, 
+    #item-9:checked ~ .cards #image-10,
+    #item-10:checked ~ .cards #image-1
+    {
+        transform: translateY(46%) scale(.8);
+        opacity: .5;
+        z-index: 0;
+        .imgRoll:hover {
+            transform: translateY(3.2%) scale(1.02);
+            --d: 6000ms;
+            --c1: rgb(210, 49, 49)
+        }
+        .imgRoll {
+            border-image: conic-gradient(from var(--angle), var(--c2), var(--c1) 0.1turn, var(--c1) 0.15turn, var(--c2) 0.25turn) 30;
+            animation: borderRotate var(--d) linear infinite forwards;
+        }
+        .arrow-right-img-carousel{
+            transform: translatex(3.2%) scale(1);
+        }
+        .arrow-left-img-carousel{
+            transform: translatex(3.2%) scale(0);
+        }
+    }
+
+    #item-1:checked ~ .cards #image-1, 
+    #item-2:checked ~ .cards #image-2, 
+    #item-3:checked ~ .cards #image-3,
+    #item-4:checked ~ .cards #image-4,
+    #item-5:checked ~ .cards #image-5,
+    #item-6:checked ~ .cards #image-6,
+    #item-7:checked ~ .cards #image-7,
+    #item-8:checked ~ .cards #image-8, 
+    #item-9:checked ~ .cards #image-9,
+    #item-10:checked ~ .cards #image-10
+    {
+        transform: translateY(0) scale(1);
+        opacity: 1;
+        z-index: 1;
+        justify-content: center;
+        .imgRoll {
+            border-radius: 1.5rem;
+            cursor: default;
+        }
+        .arrow-left-img-carousel, .arrow-right-img-carousel {
+            transform: translatex(3.2%) scale(0);
+        }
+    }
+
+    .imageInfo {
+      background-color: rgb(48, 48, 48);
+      margin-top: 5rem;
+      border-radius: 8px;
+      min-width: 320px;
+      padding: 16px 10px;
+      height: 3rem;
+      width: 20%;
+      border: #cecece 0.1rem solid;
+  }
+  
+  .upper-part {
+      position: relative;
+      display: flex;
+      align-items: center;
+      height: 50px;
+      overflow: hidden;
+  }
+  
+  .image-details .title {
+      color: #dadada;
+      font-size: 1.3rem;
+      line-height: 25px;
+      font-family: 'Poppins', sans-serif;
+      font-weight: 400;
+  }
+  
+  .info-area {
+      width: 100%;
+      position: absolute;
+      top: 0;
+      transition: transform 0.8s ease;
+  }
+  
 
     #item-1:checked ~ .imageInfo #test{
         transform: translateY(0);
@@ -247,4 +443,5 @@
     #item-10:checked ~ .imageInfo #test{
         transform: translateY(-450px);
     }
+
   }
