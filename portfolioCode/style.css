@@ -234,7 +234,14 @@ section {
 /* ICONS */
 .icon {
     cursor: pointer;
-    height: 4rem;
+    height: 3rem;
+}
+
+.icon-salvation-army {
+    margin-top: -1.2rem;
+    margin-bottom: -1.2rem;
+    cursor: pointer;
+    height: 10rem;
 }
 
 /* BUTTONS */
